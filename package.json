@@ -8,12 +8,14 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "chromatic": "npx chromatic --project-token=be04053a0e6e"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@storybook/addon-a11y": "^7.0.8",
+    "@storybook/addon-coverage": "^0.0.8",
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.8",
     "@storybook/addon-links": "^7.0.7",
@@ -23,6 +25,7 @@
     "@storybook/react-webpack5": "^7.0.7",
     "@storybook/test-runner": "^0.10.0",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "axe-playwright": "^1.2.3",
     "chromatic": "^6.17.4",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

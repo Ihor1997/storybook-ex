@@ -14,7 +14,6 @@ export default {
   },
  // tags: ["autodocs"],
 };
-export const LoginFormDefault = {};
 // More on interaction testing: https://storybook.js.org/docs/react/writing-tests/interaction-testing
 export const SuccessfulLogin = {
   play: async ({ canvasElement }) => {

@@ -117,6 +117,7 @@ export const ExampleLoginWithBug = {
 };
 export const ExampleApiMock = () => {
   setupApiMock();
+  console.log('Sum')
   const expectedResponse = [
     { id: 1, name: 'Alice' },
     { id: 2, name: 'Bob' },
